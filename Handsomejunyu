@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>阿韻大帥哥</title>
+<style>
+    body { margin: 0; background: #000; display: flex; justify-content: center; align-items: center; height: 100vh; }
+    #text { font-size: 80px; font-weight: bold; color: #ffd700; text-shadow: 0 0 20px #ff8c00; opacity: 0; transform: translateY(50px); transition: all 1.5s ease; }
+</style>
+</head>
+<body>
+    <div id="text">阿韻大帥哥</div>
+    <script>
+        setTimeout(() => {
+            const t = document.getElementById("text");
+            t.style.opacity = "1";
+            t.style.transform = "translateY(0)";
+        }, 3000);
+    </script>
+</body>
+</html>
